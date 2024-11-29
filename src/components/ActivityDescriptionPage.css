@@ -1,0 +1,52 @@
+/* src/components/ActivityDescriptionPage.css */
+
+.activity-description-page {
+    padding: 20px;
+    text-align: center;
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .activity-header {
+    margin-bottom: 20px;
+  }
+  
+  .activity-header h1 {
+    font-size: 2.5em; /* Larger font size for the activity name */
+    color: #333; /* Dark color for the text */
+  }
+  
+  .activity-header img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .activity-description {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left for better readability */
+  }
+  
+  .activity-description h2 {
+    font-size: 2em; /* Font size for section headers */
+    color: #007bff; /* Blue color for section headers */
+    margin-top: 20px; /* Space above section headers */
+  }
+  
+  .activity-description p {
+    font-size: 1.1em; /* Slightly larger font for paragraphs */
+    line-height: 1.6; /* Increase line height for readability */
+    color: #555; /* Gray color for paragraph text */
+  }
+  
+  .activity-description ul {
+    list-style-type: disc; /* Use disc bullets for the list */
+    padding-left: 20px; /* Indent the list */
+  }
+  
+  .activity-description li {
+    font-size: 1.1em; /* Font size for list items */
+    color: #555; /* Gray color for list items */
+    margin-bottom: 10px; /* Space between list items */
+  }
