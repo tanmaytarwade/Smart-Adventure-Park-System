@@ -1,0 +1,46 @@
+.terms-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9; /* Light background for better readability */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Smooth corners */
+  font-family: "Arial", sans-serif; /* Clean and simple font */
+  color: #333; /* Text color */
+  line-height: 1.8; /* Comfortable spacing between lines */
+}
+
+.terms-container h1 {
+  font-size: 2.4rem;
+  color: #ff6600; /* Bright orange for the heading */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.terms-container p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.terms-section {
+  margin-bottom: 2rem;
+}
+
+.terms-section h2 {
+  font-size: 1.6rem;
+  color: #444; /* Slightly darker heading color */
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid #ff6600; /* Underline with orange color */
+  padding-bottom: 0.4rem;
+}
+
+.terms-footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666; /* Muted footer text */
+}
+
+.terms-footer p {
+  margin: 0.5rem 0;
+}

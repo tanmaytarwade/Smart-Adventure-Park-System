@@ -1,0 +1,116 @@
+.event-calendar-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__navigation {
+  background-color: #4caf50; /* Green navigation bar */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.react-calendar__navigation button {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.react-calendar__month-view__weekdays {
+  background-color: #e8f5e9; /* Light green background */
+  color: #333;
+  font-weight: bold;
+}
+
+.react-calendar__tile {
+  padding: 15px 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  color: #333; /* Ensure dark text for visibility */
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #a5d6a7; /* Light green hover effect */
+  color: #000; /* Make text darker on hover */
+}
+
+.react-calendar__tile--active {
+  background-color: #4caf50; /* Active date color */
+  color: white; /* Contrast with the background */
+}
+
+.react-calendar__tile--now {
+  background-color: #c8e6c9; /* Today's date color */
+  color: #333; /* Ensure text visibility */
+}
+
+.events-list {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.events-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events-list li {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}
+
+.events-list p {
+  color: #777;
+}
+
+.book-button {
+  background-color: #007bff;
+  color: white; /* Fix text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+/* Highlight event days */
+.event-day {
+  background-color: #ffeb3b !important; /* Yellow background for event days */
+  border-radius: 50%;
+  font-weight: bold;
+  color: #000 !important; /* Ensure text contrast on event days */
+}
+
+/* Ensure dates are visible in all views */
+.react-calendar__tile--disabled {
+  color: #d0d0d0; /* Light gray for disabled dates */
+}

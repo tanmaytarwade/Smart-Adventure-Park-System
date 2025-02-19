@@ -1,0 +1,102 @@
+/* General container styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("C:\Users\Dell\Desktop\New folder\smart-adventure-park\src\assets\ziplining.jpg")
+    no-repeat center center;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Form styling */
+.login-form {
+  background: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.login-button,
+.toggle-button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.toggle-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.toggle-button:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-form {
+    width: 90%; /* Full-width on smaller screens */
+  }
+}

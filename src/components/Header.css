@@ -1,0 +1,80 @@
+/* General styles for the navbar */
+.navbar-custom {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto", sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navbar toggler button styling */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+  width: 30px;
+  height: 3px;
+  display: block;
+  margin: 5px auto;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-toggler-icon:hover {
+  background-color: #333;
+}
+
+/* Navigation link styles */
+.navbar-nav .nav-link {
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-weight: bold;
+  transform: scale(1.05);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Active page highlight */
+.navbar-nav .nav-link.active {
+  background-color: #ffffff;
+  color: #1e3c72;
+}
+
+/* Collapsible menu background */
+.collapse {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .navbar-custom {
+    padding: 0.8rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.7rem 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+}
